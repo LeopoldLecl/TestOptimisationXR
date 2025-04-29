@@ -48,9 +48,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4720266917285583275, guid: 35596db286beb134fb68b975b2eed138, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4447760368756750072, guid: 35596db286beb134fb68b975b2eed138, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2459403873603802174, guid: 35596db286beb134fb68b975b2eed138, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1713863184840326876, guid: 35596db286beb134fb68b975b2eed138, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300856674195739684, guid: 35596db286beb134fb68b975b2eed138, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 35596db286beb134fb68b975b2eed138, type: 3}
       propertyPath: m_Name
       value: Ch02_Sophie
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083171560036875027, guid: 35596db286beb134fb68b975b2eed138, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -67,7 +91,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &5125747965433668005
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -81,6 +105,7 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1

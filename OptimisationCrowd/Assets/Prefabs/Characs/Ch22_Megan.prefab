@@ -48,9 +48,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8113662451844533969, guid: ddb4ac6169dadf842bca57e339f2fd53, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6439692978013619079, guid: ddb4ac6169dadf842bca57e339f2fd53, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ddb4ac6169dadf842bca57e339f2fd53, type: 3}
       propertyPath: m_Name
       value: Ch22_Megan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581014216829998132, guid: ddb4ac6169dadf842bca57e339f2fd53, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116774802218284060, guid: ddb4ac6169dadf842bca57e339f2fd53, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500829582323976533, guid: ddb4ac6169dadf842bca57e339f2fd53, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927558736831396235, guid: ddb4ac6169dadf842bca57e339f2fd53, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -67,7 +91,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1372645617115789654
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -76,11 +100,12 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: cbb1d59e326c99a4b9cc42b33d4840ae, type: 3}
   m_Controller: {fileID: 9100000, guid: ec4fea3945492df4c929f8e0ab6e439a, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
+  m_CullingMode: 2
+  m_UpdateMode: 2
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1

@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9208723614577387111, guid: d90092038bcfc29469669b6d6a183839, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d90092038bcfc29469669b6d6a183839, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -48,9 +52,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2037884248300995540, guid: d90092038bcfc29469669b6d6a183839, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d90092038bcfc29469669b6d6a183839, type: 3}
       propertyPath: m_Name
       value: Ch01_Brian
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342956203822869081, guid: d90092038bcfc29469669b6d6a183839, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964350945898810324, guid: d90092038bcfc29469669b6d6a183839, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998044866364479450, guid: d90092038bcfc29469669b6d6a183839, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -67,7 +87,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &7737605216302036379
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -81,6 +101,7 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
