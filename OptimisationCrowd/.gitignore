@@ -1,14 +1,5 @@
-# Unity default ignore list
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-
-# System files
+# Unity standard ignore
 .utmp/
-.vs/
-.gradle/
-sysinfo.txt
-
-# Unity-generated folders
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -16,13 +7,15 @@ sysinfo.txt
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-ExportedObj/
-.consulo/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
 
 # JetBrains Rider
 /[Aa]ssets/Plugins/Editor/JetBrains*
 
-# VS/MonoDevelop/Consulo project files
+# Visual Studio
+.vs/
+.gradle/
 *.csproj
 *.unityproj
 *.sln
@@ -37,13 +30,11 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-
-# Meta files for debug databases
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
 
-# Unity packages and builds
+# Builds
 *.apk
 *.aab
 *.unitypackage
@@ -53,26 +44,29 @@ ExportedObj/
 # Crashlytics
 crashlytics-build.properties
 
-# Addressables binaires
+# Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
-
-# Android StreamingAssets temporaires
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# MemoryCaptures and Recordings (lourds et sensibles)
-/[Mm]emoryCaptures/
-/[Rr]ecordings/
-
-# Asset Store Tools (décommenter si nécessaire)
+# Asset Store Tools (optionnel)
 # /[Aa]ssets/AssetStoreTools*
 
-# Ignorer les fichiers lourds spécifiques signalés
+# === Ignore fichiers volumineux spécifiques ===
+
+# Skyboxes et vidéos
 Assets/MRTemplateAssets/Materials/Skybox/*.png
 Assets/MRTemplateAssets/Videos/*.mp4
 
-# Optionnel : ignorer tous les .mp4 (si aucun ne doit être versionné)
-# *.mp4
+# Textures PNG de personnages
+Assets/Graphic/Textures/Charac/**/*.png
 
-# Optionnel : ignorer tous les .png (si fichiers d'art pas versionnés)
-# Assets/**/*.png
+# Modèles FBX de personnages
+Assets/Graphic/Models/Charac/**/*.fbx
+
+# Dossiers d'animations de référence
+Assets/Graphic/Animations/REFs/**
+
+# Optionnel : ignorer tous les fichiers FBX/PNG du projet
+# *.fbx
+# *.png
